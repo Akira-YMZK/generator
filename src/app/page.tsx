@@ -107,6 +107,19 @@ export default function Home() {
             求人紹介文ジェネレーター
           </h1>
 
+          {/* Navigation to Excel Extractor */}
+          <div className="mb-8 text-center">
+            <a 
+              href="/job-extractor" 
+              className="inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              求人情報Excel抽出ツール →
+            </a>
+            <div className="text-sm text-gray-600 mt-2">
+              求人サイトのURLから情報を抽出してExcelファイルでダウンロード
+            </div>
+          </div>
+
           {/* Step 1: URL Input */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">
